@@ -2,6 +2,13 @@
   background-color: #333132;
   margin-bottom: 0px;
 }
+i {
+  color: white;
+}
+li {
+  list-style: none;
+  margin-right: 1%;
+}
 .logo {
   margin-top: .5%;
   height: 100%;
@@ -25,5 +32,10 @@
   text-decoration: none;
   font-weight: bolder;
   margin: 2%;
-  font-size: 2em;
+  font-size: 1.5em;
 }
+
+/*#ham {
+  background-color: white;
+  color: black;
+}*/
