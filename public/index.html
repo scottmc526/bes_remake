@@ -3,11 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>BES Remake</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
   </head>
   <body>
-    <div ng-controller='mainController'>
-      <p>this is nav bar</p>
-      {{hello}}
+    <div class='navContainer' ng-controller='mainController'>
+      <img class='logo' src="css/images/bes-logo.svg">
+      <a class='navLinks' href='#'><p>PROCESS</p></a>
+      <a class='navLinks' href='#'><p>SERVICES</p></a>
+      <a class='navLinks' href='#'><p>ABOUT</p></a>
+      <a class='navLinks' href='#'><p>PORTFOLIO</p></a>
+      <a class='navLinks' href='#'><p>CONNECT</p></a>
     </div>
 
     <div ng-view></div>
