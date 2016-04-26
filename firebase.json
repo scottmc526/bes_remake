@@ -1,6 +1,7 @@
 {
   "firebase": "besRemake",
   "public": "public",
+
   "ignore": [
     "firebase.json",
     "**/.*",
