@@ -1,6 +1,10 @@
+
 .navbar {
   background-color: #333132;
   margin-bottom: 0px;
+}
+.navbar-nav {
+  float: none;
 }
 i {
   color: white;
@@ -8,34 +12,26 @@ i {
 li {
   list-style: none;
   margin-right: 1%;
+  font-family: 'Montserrat', serif;
 }
 .logo {
-  margin-top: .5%;
-  height: 100%;
-  width: 30%;
+  margin-top: 5%;
+  width: 170px;
 }
 
-/*ul > li > a {
-  font-family: 'Montserrat', serif;
-  color: #fff;
-  padding: 3%;
-  text-decoration: none;
-}*/
-
-/*ul > li > a:hover {
-  text-decoration: none;
-  color: #f47721;
-}*/
 .navLinks {
-  font-family: 'Montserrat', serif;
   color: white;
-  text-decoration: none;
   font-weight: bolder;
-  margin: 2%;
-  font-size: 1.5em;
+  margin: 3%;
+  font-size: 1em;
+}
+#header {
+  height: 13vh;
+}
+a {
+  color: white;
 }
 
-/*#ham {
-  background-color: white;
-  color: black;
-}*/
+a:hover {
+  color: #f47721;
+}
