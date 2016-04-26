@@ -1,4 +1,4 @@
-.navContainer {
+/*.navContainer {
   width: 100vw;
   height: 13vh;
   background-color: #333132;
@@ -6,11 +6,6 @@
   flex-direction: row;
 }
 
-.logo {
-  margin-top: .5%;
-  height: 77%;
-  width: 30%;
-}
 
 .navLinks {
   font-family: 'Montserrat', serif;
@@ -24,10 +19,11 @@
 .navLinks:hover {
   color: #f47721;
   border-bottom: 5px solid #f47721;
-}
+}*/
 
 .welcome {
+  background-color: red;
   height: 49.4vh;
   width: 100vw;
-  background-image: url('/css/images/hero-bg.jpg');
+  /*background-image: url('/css/images/hero-bg.jpg');*/
 }
