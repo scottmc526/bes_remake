@@ -25,9 +25,3 @@
   color: #f47721;
   border-bottom: 5px solid #f47721;
 }
-
-.welcome {
-  height: 45.6vh;
-  width: 100vw;
-  background-image: url('/css/images/hero-bg.jpg');
-}
