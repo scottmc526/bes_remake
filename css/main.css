@@ -1,15 +1,36 @@
-.welcome {
-  height: 45.6vh;
+.welcomeContainer {
   width: 100vw;
+  height: 46vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  height: 99%;
+  width: 100%;
   background-image: url('/css/images/hero-bg.jpg');
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.welcome h1 {
+.slideContent {
+  height: 80%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slideContent h1, p {
   font-family: 'Montserrat', serif;
-  margin-right: 7%;
-  margin-top: 3%;
+}
+.slideContent h1 {
   font-size: 3em;
+  margin: 1%;
+  margin-right: 10%;
+}
+.slideContent p {
+  font-size: 1.5em;
+  vertical-align: middle;
+  text-align: center;
 }
